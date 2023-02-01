@@ -1,0 +1,66 @@
+<html>
+<head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="nf-core/wombatp: Proteomics workflow benchmarking">
+  <title>nf-core/wombatp Pipeline Report</title>
+</head>
+<body>
+<div style="font-family: Helvetica, Arial, sans-serif; padding: 30px; max-width: 800px; margin: 0 auto;">
+
+<img src="cid:nfcorepipelinelogo">
+
+<h1>nf-core/wombatp v1.0dev</h1>
+<h2>Run Name: jovial_allen</h2>
+
+
+    <div style="color: #a94442; background-color: #f2dede; border-color: #ebccd1; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
+        <h4 style="margin-top:0; color: inherit;">nf-core/wombatp execution completed unsuccessfully!</h4>
+        <p>The exit status of the task that caused the workflow execution to fail was: <code>null</code>.</p>
+        <p>The full error message was:</p>
+        <pre style="white-space: pre-wrap; overflow: visible; margin-bottom: 0;">SIGTERM</pre>
+    </div>
+    
+
+<p>The workflow was completed at <strong>2023-02-01T11:51:35.067486420+01:00</strong> (duration: <strong>2h 17m 45s</strong>)</p>
+<p>The command used to launch the workflow was as follows:</p>
+<pre style="white-space: pre-wrap; overflow: visible; background-color: #ededed; padding: 15px; border-radius: 4px; margin-bottom:30px;">nextflow run /data/proteomics/elixir/MaxQuant-Workflow-dev//Nextflow/main.nf -resume /data/proteomics/elixir/MaxQuant-Workflow-dev/test_2023/work/ce/5a8a3fb72bbe8ebb94436c428f53ff --fasta /data/proteomics/elixir/MaxQuant-Workflow-dev/data/yeast_UPS.fasta --sdrf /data/proteomics/elixir/MaxQuant-Workflow-dev/data/sdrf_UPS.tsv --raws '/data/proteomics/elixir/MaxQuant-Workflow-dev/test_2023/raw/*' --max_cpus 6 --max_memory 16GB -profile singularity -with-report</pre>
+
+<h3>Pipeline Configuration:</h3>
+<table style="width:100%; max-width:100%; border-spacing: 0; border-collapse: collapse; border:0; margin-bottom: 30px;">
+    <tbody style="border-bottom: 1px solid #ddd;">
+        <tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Run Name</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>jovial_allen</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Raw files</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/test_2023/raw/*</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Fasta database</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/data/yeast_UPS.fasta</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>SDRF file</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/data/sdrf_UPS.tsv</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Parameter file</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>no_params</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Experimental design file</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>no_exp_design</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Max Resources</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>16GB memory, 6 cpus, 10d time per job</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Container</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>singularity - nfcore/wombatp:dev</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Output dir</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>./results</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Launch dir</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/test_2023</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Working dir</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/test_2023/work</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Script dir</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/Nextflow</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>User</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>ambrusa</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Config Profile</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>singularity</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Config Files</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/Nextflow/nextflow.config</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Date Started</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>2023-02-01T09:33:50.352974093+01:00</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Date Completed</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>2023-02-01T11:51:35.067486420+01:00</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Pipeline script file path</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>/data/proteomics/elixir/MaxQuant-Workflow-dev/Nextflow/main.nf</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Pipeline script hash ID</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>3668aab0458d2dce5552f18e5f1755f3</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Nextflow Version</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>22.10.0</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Nextflow Build</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>5826</pre></td></tr>
+<tr><th style='text-align:left; padding: 8px 0; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'>Nextflow Compile Timestamp</th><td style='text-align:left; padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd;'><pre style='white-space: pre-wrap; overflow: visible;'>13-10-2022 05:44 UTC</pre></td></tr>
+    </tbody>
+</table>
+
+<p>nf-core/wombatp</p>
+<p><a href="https://github.com/nf-core/wombatp">https://github.com/nf-core/wombatp</a></p>
+
+</div>
+
+</body>
+</html>
